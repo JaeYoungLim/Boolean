@@ -20,7 +20,7 @@ public class Boolean {
 			Resultgroupsize = String.format(" and the group size is " + GroupSize);
 			
 			} else if(groupsize2) {
-				Resultgroupsize = String.format("The number of people has to be at least 3.");
+				Resultgroupsize = String.format(" . The number of people has to be at least 3.");
 			
 			} else {
 				GroupSize = NumPeople/3;
